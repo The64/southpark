@@ -21,6 +21,8 @@ a{
 
 body{
     background: #101010;
+    margin: 0px;
+    padding: 0px;
 }
 
     body::-webkit-scrollbar{
@@ -29,6 +31,8 @@ body{
 
 .grid-container{
     display: grid;
+    padding: 0px;
+    margin: 0px;
 }
 
 .header{
@@ -375,7 +379,7 @@ body{
 
 /* MOVIL */
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 1000px){
 
     .grid-container-episodes{
         
@@ -398,7 +402,7 @@ body{
 /* TABLET */
 
 
-@media screen and (min-width: 600px) and (max-width: 900px) {
+@media screen and (min-width: 1000px) {
     
     .grid-container-episodes{
         grid-template-columns: repeat(2, 1fr);
